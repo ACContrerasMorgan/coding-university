@@ -19,6 +19,13 @@ public class Contenedor {
         this.valor = 0;
     }
     
+    // método constructor sobrecargado
+    public Contenedor(double area, double peso, double valor) {
+        this.area = area;
+        this.peso = peso;
+        this.valor = valor;
+    }
+    
     // métodos getters
     public double getArea() {
         return this.area;
